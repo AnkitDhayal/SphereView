@@ -8,7 +8,7 @@
 #include <fstream>
 
 
-void SphereView::Reader::reader(QVector <GLfloat>& pointVector, QVector <GLfloat>& colorVector) {
+void SphereView::Reader::reader(QVector<GLfloat>& pointVector, QVector<GLfloat>& colorVector) {
 
     std::ifstream dataFile;
 
